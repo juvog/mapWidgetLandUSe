@@ -1,0 +1,9 @@
+build
+node_modules
+src
+.gitignore
+readme.md
+tsconfig.json
+.vscode
+readme.md
+doc

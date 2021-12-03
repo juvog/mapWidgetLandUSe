@@ -1,0 +1,16 @@
+{
+  "bi.dashboard.title": "My dashboards",
+  "bi.dashboard.icon.tooltip": "Manage your dashboard",
+  "bi.dashboard.message": "Here the content of your extension",
+  "bi.dashboard.help.menu.label": "My custom extension help menu",
+  "error.unexpected": "Unexpected error",
+  "dashboard.empty": "No dashboard",
+  "dashboard.loading.error": "Unexpected error while loading dashboards",
+  "dashboard.add.success": "Dashboard has been created",
+  "dashboard.add.error": "Unexpected error while adding the dashboard",
+  "dashboard.delete.error": "Unexpected error while deleting the dashboard",
+  "dashboard.delete.success": "Dashboard has been deleted",
+  "dashboard.list.title": "Dashboard list",
+  "map.clicked": "Map clicked (interactor event)",
+  "delete": "Delete"
+}

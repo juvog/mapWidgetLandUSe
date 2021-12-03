@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "../public",
+    "baseUrl": "./",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "lib": ["es2017", "dom", "es5", "es2015.promise"]
+  },
+  "include": ["./**/*", "../node_modules/jmap-core/**/*", "../node_modules/jmap-app/**/*"]
+}

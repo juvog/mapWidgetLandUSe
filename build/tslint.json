@@ -1,0 +1,74 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "max-line-length": [
+    true,
+    130
+  ],
+  "rules": {
+    // "typedef": [
+    //   true,
+    //   "call-signature",
+    //   "arrow-call-signature",
+    //   "parameter",
+    //   "arrow-parameter",
+    //   "property-declaration",
+    //   "variable-declaration",
+    //   "variable-declaration-ignore-function",
+    //   "member-variable-declaration"
+    // ],
+    "no-eval": false,
+    "semicolon": [true, "never"],
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": [
+      true,
+      {
+        "class": true,
+        "enum": true,
+        "function": true,
+        "interface": false,
+        "namespace": true,
+        "typeAlias": false,
+        "typeParameter": false,
+        "temporalDeadZone": false
+      }
+    ],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-trailing-whitespace": [true, "ignore-comments"],
+    "ordered-imports": [
+      false,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "any",
+        "grouped-imports": true
+      }
+    ],
+    "curly": [true],
+    "no-console": [true, "log"],
+    "max-classes-per-file": [true, 10, "exclude-class-expressions"],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "variable-name": [false, "ban-keywords", "check-format", "allow-leading-underscore", "allow-trailing-underscore"],
+    "interface-name": [false],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-instance-field",
+          "private-static-field",
+          "private-instance-field",
+          "public-constructor",
+          "private-constructor",
+          "public-static-method",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method",
+          "private-static-method"
+        ]
+      }
+    ],
+    "no-namespace": [true, "allow-declarations"]
+  },
+  "rulesDirectory": []
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "../public/transpiled",
+    "baseUrl": "../src",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["es2017", "dom", "es5", "es2015.promise"]
+  },
+  "include": ["../src/**/*", "../node_modules/jmap-core/**/*", "../node_modules/jmap-app/**/*"]
+}

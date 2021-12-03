@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <style>
+      html,
+      body {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.JMAP_OPTIONS = {
+        restBaseUrl: "https://jmap7dev.jmaponline.net/services/rest/v2.0",
+        // in development, for a server project extension, you must
+        // specify the server Id and local override for the extention
+        extensionsUrlOverride: [{
+          id: "extension-server-id",
+          jsUrl: "https://localhost:8083/build/index.js" // this should be fine if you don't change your build config
+        }]
+      }
+    </script>
+    <!-- if you want to load your extension right away, uncomment the following line -->
+    <!-- <script defer type="text/javascript" src="/build/index.js"></script> -->
+    <script defer type="text/javascript" src="https://localhost:8082/build/index.js"></script>
+  </body>
+</html>

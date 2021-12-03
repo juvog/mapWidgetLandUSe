@@ -1,0 +1,6 @@
+module.exports = {
+  NODE_ENV: "development",
+  // NODE_ENV: "production"
+  BUILD_DIR: "/Applications/JMap/applications/deployed/services/jmap"
+  //WEBPACK_ANALYSE: true
+}

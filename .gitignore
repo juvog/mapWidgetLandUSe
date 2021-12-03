@@ -1,0 +1,7 @@
+node_modules
+public/*
+!build
+build/env-config.js
+build/env-config-old.js
+doc/
+.DS_STORE

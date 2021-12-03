@@ -1,0 +1,16 @@
+{
+  "bi.dashboard.title": "Mes widgets",
+  "bi.dashboard.icon.tooltip": "Gérer vos dashboards",
+  "bi.dashboard.message": "Ici le contenu de l'extension",
+  "bi.dashboard.help.menu.label": "Menu d'aide de mon extension personalisée",
+  "error.unexpected": "Erreur inattendue",
+  "dashboard.empty": "Aucun dashboard",
+  "dashboard.loading.error": "Erreur inconnue pendant le chargement des dashboards",
+  "dashboard.add.success": "Le dashboard a été créé",
+  "dashboard.add.error": "Erreur inconnue pendant la création du dashboard",
+  "dashboard.delete.error": "Erreur inconnue pendant la suppression du dashboard",
+  "dashboard.delete.success": "Le dashboard a été supprimé",
+  "dashboard.list.title": "Liste des dashboards",
+  "map.clicked": "La carte a été clické (interactor event)",
+  "delete": "Supprimer"
+}
